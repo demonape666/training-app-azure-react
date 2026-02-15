@@ -49,7 +49,7 @@ function App() {
     <div className="App-azuretraining">
       {/* Header stays constant here */}
       <div className="at-header">
-        Lorem ipsum dolor
+        Lorem ipsum dolor Test
       </div>
       <div className='at-content'>
         {/* Content of app here. */}
