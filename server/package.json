@@ -1,0 +1,22 @@
+{
+  "name": "azuretrain_service",
+  "version": "1.0.0",
+  "description": "Hosts service logic",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node azure_training_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.30.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "mssql": "^12.2.0",
+    "path": "^0.12.7"
+  }
+}

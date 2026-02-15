@@ -1,0 +1,43 @@
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: blanchedalmond;
+}
+
+
+
+.App-azuretraining {
+  background-image: linear-gradient(gray,  white);
+  height: 100vh;
+}
+
+  .at-header {
+    padding: 20px 10px;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1cap;
+    text-decoration: underline;
+  }
+
+  .at-content {
+    display: flex;
+    
+  }
+
+  .side-content {
+    height: calc(100vh - 110px);
+    width: 20%;
+    background-image: linear-gradient(black, white);
+    color: white;
+    padding: 20px;
+  }
+
+  .main-content {
+    width: 78%;
+    background-image: radial-gradient(gray, white);
+    display: flex;
+    flex-wrap: wrap;
+  }

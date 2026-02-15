@@ -1,0 +1,76 @@
+.product-tile {
+    width: 40%;
+    min-width: 40%;
+    padding: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    margin: 2px;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;        
+  align-items: center;    
+  justify-content: center;
+
+}
+
+.show-button {
+    position: relative;
+    left: 10px;
+    top: 40px;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cyan {
+    background-image: linear-gradient(cyan, white);
+}
+
+.yellow {
+    background-image: linear-gradient( yellow, white);
+}
+
+.green {
+    background-image: linear-gradient(lime, white);
+}
+
+.violet {
+    background-image: linear-gradient(violet, white);
+}
+
+.bottom-left {
+    position: absolute;
+    left: 0;
+}
+
+.button-group {
+    position: relative;
+    top: 20px;
+   
+}
+
+.button-group button {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.red {
+    background-image: linear-gradient(pink, white);
+}
+
+.gray {
+    background-image: linear-gradient(gray, white);
+}
+
+.blue {
+    background-image: linear-gradient(lightblue, white);
+}
+
+.lime {
+    background-image: linear-gradient(green, white);
+}
